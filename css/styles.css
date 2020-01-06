@@ -58,6 +58,18 @@
   margin-top: -50px;
 }
 
+#faq .card {
+  border: #444;
+}
+#faq a {
+  text-decoration: none;
+  color: #fff;
+}
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
 #video-play {
   position: relative;
   min-height: 200px;
