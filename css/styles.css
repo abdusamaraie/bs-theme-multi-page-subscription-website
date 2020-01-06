@@ -70,11 +70,6 @@
   background: #333;
 }
 
-#main-footer {
-  background: #000;
-  color: white;
-}
-
 #video-play {
   position: relative;
   min-height: 200px;
@@ -85,6 +80,11 @@
   color: white;
 }
 #video-play a {
+  color: white;
+}
+
+#main-footer {
+  background-color: #222;
   color: white;
 }
 
