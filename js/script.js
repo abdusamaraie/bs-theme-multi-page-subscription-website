@@ -6,7 +6,10 @@ $(".carousel").carousel({
   interval: 6000,
   pause: "hover"
 });
-
+$(document).on("click", '[data-toggle="ekko-lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
 // Video Play
 $(function() {
   // Auto play modal video
