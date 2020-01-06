@@ -47,7 +47,13 @@
   height: 100%;
   background: rgba($color: #000000, $alpha: 0.7);
 }
-
+#page-header {
+  height: 200px;
+  background-image: url("../img/image2.jpg");
+  background-attachment: fixed;
+  background-position: 0 -360px;
+  border-bottom: 1px solid #eee;
+}
 #video-play {
   position: relative;
   min-height: 200px;
